@@ -1,0 +1,53 @@
+body{
+    background-image: url('../images/backgroundAyacucho.png');
+}
+#cabezera{
+    height: 400px;
+    width: 100%;
+}
+
+#Encabezado{
+    width: 100%;
+    text-align: center;
+}
+.divCarrousel{
+    margin: auto auto;
+    margin-top: -6rem;
+    
+}
+
+aside{
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    margin-top: -380px;
+
+}
+#contenedorReservaciones{
+    text-align: center;
+    margin-left: 4%;
+    width: 100%;
+}
+
+aside .btn{
+    margin: 1rem 1rem;
+    width: 100%;
+    
+}
+
+table .btn{
+    margin: 2px 10px;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.205);
+
+}
+.card-body{
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 3%;
+}
+
+.container{
+    width: 100%;
+}

@@ -1,0 +1,129 @@
+body{
+    background-image: url('../images/backgroundAyacucho.png');
+}
+.cabecera{
+    height: 300px;
+}
+#Encabezado{
+    text-align: center;
+}
+.divCarrousel{
+
+    margin-top: -100px;
+}
+
+.cabecera .img-logo{
+    padding-top: 1rem;
+    position: relative; 
+    border-radius: 50% 0 40%;
+}
+.cabecera .titulo{
+    text-align: right;
+    margin-right: 5%;
+
+}
+
+.cabecera #text-welcome{
+    margin-top: 250px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+#barra-lateral{
+    margin-top: 25px;
+    position: absolute;
+    width: 280px;
+    height: 100%;
+    text-align: center;
+
+
+}
+
+
+#barra-lateral ul li {
+    list-style: none;
+    margin: 9% 17%;
+    margin-left: -2%;
+}
+
+#Habitaciones{
+    margin-left: 280px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 3%;
+    text-align: center;
+}
+.btnreservar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: -12px;
+    width: 80%;
+}
+.botones{
+    
+
+    display: inline;
+    
+}
+.boton{
+    width: 25%;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.img-habitacion{
+
+    padding: 1rem 2rem;    
+}
+
+.img-habit{
+
+width: 100%;
+border-radius: 4%;
+
+}
+
+.formularios{
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+.disponible{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(255, 0, 119);
+    
+}
+.noDisponible{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+
+}
+.table-bordered{
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+#Reservaciones{
+    margin-left: 280px;
+    height: 100%;
+    
+
+}
+#Servicios{
+    margin-left: 280px;
+    height: 100%;
+}
+
+.botonesInfo{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif
+}
+#menu-reservar{
+    background-image: url('../images/backgroundAyacucho.png');
+
+}

@@ -1,0 +1,79 @@
+
+.rotor-3d{
+    
+    margin: 0;
+    padding-bottom:0;
+    box-sizing: border-box;
+    
+}
+
+.content-all{
+    width: 280px;
+    perspective: 1000px;
+    position: relative;
+    margin: auto auto auto auto;
+    margin-top: 7rem;
+    margin-bottom: 30px;
+}
+
+.content-carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 25s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover{
+    cursor: pointer;
+}
+
+
+
+
+.content-carrousel a{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.content-carrousel img{
+    width: 100%;
+    height: 150px;
+}
+
+.content-carrousel img:hover{
+    transform: scale(1.04);
+    transition: all-300ms;
+    
+    
+
+    
+}
+
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg)
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+
+.content-carrousel a:nth-child(1){
+    transform: rotateY(0deg) rotateX(-2deg)  translateZ(200px);
+}
+.content-carrousel a:nth-child(2){
+    transform: rotateY(72deg) rotateX(-2deg)  translateZ(200px);
+}
+.content-carrousel a:nth-child(3){
+    transform: rotateY(144deg) rotateX(-2deg)  translateZ(200px);
+}
+.content-carrousel a:nth-child(4){
+    transform: rotateY(216deg) rotateX(-2deg) translateZ(200px);
+}
+.content-carrousel a:nth-child(5){
+    transform: rotateY(288deg) rotateX(-2deg) translateZ(200px);
+}

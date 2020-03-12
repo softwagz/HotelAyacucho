@@ -1,0 +1,112 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    z-index: 1000px;
+    background-image: url(../images/backgroundAyacucho.png);
+    }
+#Contenedor-all{
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#imagen-contenedor-all{
+    width:100%;
+    height:100%;
+}
+
+.barraNavegacion{
+    margin-top: -5rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    
+
+}
+
+.contenedorEncabezado{
+    width: 100%;
+    position: absolute;
+    height: 30rem;
+
+}
+
+
+.contenedorEncabezado h1{
+    margin: 1rem auto;
+    text-align: center;
+
+
+}
+.contenedorEncabezado .footerEncabezado footer{
+    text-align: left;
+}
+
+.contenedorEncabezado button{
+    margin-top: 2rem;
+}
+
+.logo-hotel{
+    height: 150px;
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 10px 15px rgb(255, 255, 255);
+}
+
+.contenedorInformacion{
+    width: 100%;
+    position: absolute;
+    margin-top: 30rem;
+    height:27rem;
+}
+.divCarrousel{
+    margin: auto;
+    padding: auto;
+}
+
+
+
+.slider img{
+    height: 440px;
+}
+
+.carousel-caption{
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 12% 50% 12% 50%;
+    color: rgb(247, 0, 0);
+    
+    
+}
+
+.contenedorFooter{
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    margin-top: 58rem;
+    font-size: 14px;
+
+}
+
+.contenedorFooter .rrss{
+display: -webkit-flex;
+height: 130px;
+}
+.contenedorFooter .rrss figure{
+    margin: auto auto;
+    text-align: center;
+}
+.contenedorFooter .rrss a{
+    
+}
+
+.menu-Acceder{
+    background-color: rgba(255, 255, 255, 0.801);
+
+}
+
+.menu-Registrarse .formularioAcceso{
+    padding: 2rem;
+}
